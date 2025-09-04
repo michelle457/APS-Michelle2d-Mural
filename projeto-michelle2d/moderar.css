@@ -1,4 +1,4 @@
-
+/*Fiz primeiro o css do Mural logo depois o do moderar, contúdo foi utilizado o css do mural/chat/site pizzaria pra fazer esse também.*/
 
 *{
     margin: 0;
@@ -24,7 +24,7 @@ body {
     background-color: #fff;
     padding: 25px 30px;
     border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08); /*Utilizado chat*/
 }
 
 #header h1 {
@@ -63,7 +63,7 @@ body {
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s; /*Utilizado chat*/
 }
 
 #formulario_mural .btn:hover {
@@ -78,12 +78,12 @@ body {
     margin-bottom: 15px;
     border-left: 5px solid #6b3fa0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s; /*Utilizado chat*/
 }
 
 .Mural:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1); /*Utilizado chat*/
 }
 
 .Mural li {
