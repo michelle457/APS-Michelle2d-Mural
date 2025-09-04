@@ -1,3 +1,5 @@
+/* Foi utilizado o trabalho da pizzaria como exemplo pra produção desse trabalho, peguei coisas q utilizei lá e usei o chat tbm. Fiz algo bem simples mas que chame atenção e que seja bonito.*/
+
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +24,7 @@ body {
     background-color: #fff;
     padding: 25px 30px;
     border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08); /* Utilizei ChatGPT pra colocar sombra suave + radius */
 }
 
 #header h1 {
@@ -61,7 +63,7 @@ body {
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s; /* Utilizei ChatGPT Transição 0.3s padrão */
 }
 
 #formulario_mural .btn:hover {
@@ -76,7 +78,7 @@ body {
     margin-bottom: 15px;
     border-left: 5px solid #6b3fa0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s; /* Utilizei o ChatGPT pra colocar transições duplas/animação */
 }
 
 .recados:hover {
